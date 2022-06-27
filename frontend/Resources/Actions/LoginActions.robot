@@ -14,4 +14,4 @@ User Should Be Logged In
     Wait For Elements State    css=h1    visible    5
 
 Do Logout
-    Click     css=.do-Logout
+    Click    css=.do-Logout

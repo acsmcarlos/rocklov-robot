@@ -26,7 +26,7 @@ Get Token Service
     ${response}    POST
     ...            ${base_url}/sessions
     ...            json=${payload}
-    ...            expected_status=any
+    # ...            expected_status=any
 
     [Return]    ${response.json()}[user_token]
 
@@ -48,6 +48,5 @@ Post Equipo Service
     ...            data=${equipo}         # <---- trocado "json" por "data(data-format)"
     ...            headers=${headers}
     ...            files=${thumbnail}
-    ...            expected_status=any
 
     [Return]    ${response}

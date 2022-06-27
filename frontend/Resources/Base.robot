@@ -1,13 +1,12 @@
 *** Settings ***
 Documentation    Arquivo principal do projeto de automação web
 
-Library    Browser
-Library    Libs/mongo.py
-Library    RequestsLibrary
-Library    OperatingSystem
-Library    Libs/Utils.py
-Library    Collections
-# Library    SeleniumLibrary
+Library      Browser
+Library      Libs/mongo.py
+Library      RequestsLibrary
+Library      OperatingSystem
+Library      Libs/Utils.py
+Library      Collections
 
 Resource    Helpers.robot
 Resource    Services.robot
@@ -19,7 +18,7 @@ Resource    Actions/Components.robot
 *** Keywords ***
 Start Session
     # Avisar a biblioteca pra definir e abrir o navegador assistida
-    New Browser    chromium    True    slowMo=0:00:00
+    New Browser    chromium    False    slowMo=0:00:00
 
     New Page    about:blank    #    #Abrir janela em branco
     # Set Viewport Size    1366           768    # Maximizar janela
@@ -46,4 +45,5 @@ Login Session
     [Arguments]    ${email}    ${senha}
 
     Start Session
-    Login With       ${email}    ${senha}
+    Login With                  ${email}    ${senha}
+    User Should Be Logged In

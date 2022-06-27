@@ -16,7 +16,7 @@ CT01-Remove Equipo
 
     # Dado que o saxofone um equipamento indesejado
     ${equipo}              Get Equipo           saxofone
-    ${token}               Get Token Service    ${EMAIL}    ${PASS}
+    ${token}               Get Token From LocalStorage
     Remove Equipo          ${equipo}[name]
     Post Equipo Service    ${equipo}            ${token}
     Reload
