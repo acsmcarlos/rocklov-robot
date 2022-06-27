@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Steve Rogers",
+        "email": "rogers@shield.com",
+        "password": "123456"
+    },
+    {
+        "name": "Eddie Van Halen",
+        "email": "eddie@vanhalen.com",
+        "password": "123456"
+    },
+    {
+        "name": "Jimmi Hendrix",
+        "email": "jimmi.hendrix@hotmail.com",
+        "password": "123456"
+    }
+]

@@ -1,0 +1,5 @@
+Logs
+Logs/*
+
+__pycache__
+frontend/run.sh

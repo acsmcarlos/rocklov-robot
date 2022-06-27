@@ -1,0 +1,34 @@
+{
+    "empty_name": {
+        "name": "",
+        "email": "steve.rogers@marvel.com",
+        "password": "123456"
+    },
+    "empty_email": {
+        "name": "Steve Rogers",
+        "email": "",
+        "password": "123456"
+    },
+    "empty_pass": {
+        "name": "Steve Rogers",
+        "email": "steve.rogers@marvel.com",
+        "password": ""
+    },
+    "without_name": {
+        "email": "steve.rogers@marvel.com",
+        "password": "123456"
+    },
+    "without_email": {
+        "name": "Steve Rogers",
+        "password": "123456"
+    },
+    "without_pass": {
+        "name": "Steve Rogers",
+        "email": "steve.rogers@marvel.com"
+    },
+    "wrong_email": {
+        "name": "Steve Rogers",
+        "email": "steve.rogers&marvel.com",
+        "password": "123456"
+    }
+}

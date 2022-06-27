@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Antonio Carlos",
+        "email": "acsmcarlos@gmail.com",
+        "password": "123456"
+    },
+    {
+        "name": "Richie Sambora",
+        "email": "sambora@bonjovi.com",
+        "password": "123456"
+    },
+    {
+        "name": "Rita Lee",
+        "email": "rita_lee@gmail.com",
+        "password": "123456"
+    }
+]

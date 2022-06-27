@@ -1,0 +1,17 @@
+bcrypt
+certifi
+cffi
+Faker
+psycopg2
+pymongo
+requests
+robot-mongodb-library
+robotframework
+robotframework-appiumlibrary
+robotframework-browser
+robotframework-databaselibrary
+robotframework-faker
+robotframework-pabot
+robotframework-requests
+robotframework-seleniumlibrary
+robotframework-zoomba

@@ -1,0 +1,34 @@
+[
+    {
+        "payload": {
+            "name": "Amplificador Stam",
+            "category": "Amplificadores",
+            "price": 1700
+        },
+        "thumbnail": "amplificador.png"
+    },
+    {
+        "payload": {
+            "name": "Bateria Vermelha",
+            "category": "Baterias e Percussão",
+            "price": 5000
+        },
+        "thumbnail": "bateria-vermelha.png"
+    },
+    {
+        "payload": {
+            "name": "Guitarra Semi Acústica",
+            "category": "Cordas",
+            "price": 3500
+        },
+        "thumbnail": "guitarra-semi-acustica.png"
+    },
+    {
+        "payload": {
+            "name": "Saxofone",
+            "category": "Sopros",
+            "price": 1700
+        },
+        "thumbnail": "saxofone.png"
+    }
+]
