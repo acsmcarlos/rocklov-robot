@@ -18,7 +18,7 @@ Resource    Actions/Components.robot
 *** Keywords ***
 Start Session
     # Avisar a biblioteca pra definir e abrir o navegador assistida
-    New Browser    chromium    False    slowMo=0:00:00
+    New Browser    chromium    True    slowMo=0:00:00
 
     New Page    about:blank    #    #Abrir janela em branco
     # Set Viewport Size    1366           768    # Maximizar janela
