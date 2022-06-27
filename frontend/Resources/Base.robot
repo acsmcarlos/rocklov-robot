@@ -2,7 +2,7 @@
 Documentation    Arquivo principal do projeto de automação web
 
 Library    Browser
-Library    libs/mongo.py
+Library    Libs/mongo.py
 Library    RequestsLibrary
 Library    OperatingSystem
 Library    Libs/Utils.py
