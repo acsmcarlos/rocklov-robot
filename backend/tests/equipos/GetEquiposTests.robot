@@ -38,23 +38,23 @@ CT002-Equipo Not Found
     Status Should Be    404    ${response}
 
 
-CT003-Get Equipo List
-    [Tags]    all_equipos
+# CT003-Get Equipo List
+#     [Tags]    all_equipos
 
-    # Autenticando
-    ${token}    Get Token    rita.lee@gmail.com    123456
+#     # Autenticando
+#     ${token}    Get Token    rita.lee@gmail.com    123456
 
-    # Setando as 04 massas de teste e deletando os equipos
-    ${list}    Get Json    equipos    list.json
+#     # Setando as 04 massas de teste e deletando os equipos
+#     ${list}    Get Json    equipos    list.json
 
-    # LOOP para percorrer a lista e cadastrar os equipos
-    FOR    ${item}    IN    @{list}
-        Remove Equipo    ${item}[payload][name]
-        POST Equipo      ${item}     ${token}
-    END
+#     # LOOP para percorrer a lista e cadastrar os equipos
+#     FOR    ${item}    IN    @{list}
+#         Remove Equipo    ${item}[payload][name]
+#         POST Equipo      ${item}     ${token}
+#     END
 
-    ${response}         GET All Equipos    ${token}
-    Status Should Be    200                ${response}
+#     ${response}         GET All Equipos    ${token}
+#     Status Should Be    200                ${response}
 
-    ${total_list}     Get Length           ${response.json()}
-    Should Be True    ${total_list} > 3
+#     ${total_list}     Get Length           ${response.json()}
+#     Should Be True    ${total_list} > 3
